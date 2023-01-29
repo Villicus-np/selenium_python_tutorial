@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 
 class Toolbox:
-    load_dotenv()
+    #load_dotenv()
     #secret_username = os.getenv('UNAME')
     #secret_password = os.getenv('PASSWD')
     #invalid_password = os.getenv('INVALID_PASSWD')
