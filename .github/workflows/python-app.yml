@@ -11,8 +11,8 @@ permissions:
   
 env: # Or as an environment variable
       BASE_URL: ${{ secrets.BASE_URL }}
-#      UNAME: ${{ secrets.UNAME }}
-#      PASSWD: ${{ secrets.PASSWD }}
+      UNAME: ${{ secrets.UNAME }}
+      PASSWD: ${{ secrets.PASSWD }}
 #      INVALID_PASSWD: ${{ secrets.INVALID_PASSWD }}
 jobs:
   build:
