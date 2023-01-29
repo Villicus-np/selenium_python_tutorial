@@ -10,7 +10,7 @@ env: # Or as an environment variable
       PASSWD: ${{ secrets.PASSWD }}
       INVALID_PASSWD: ${{ secrets.INVALID_PASSWD }}
 jobs:
-  cron:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
